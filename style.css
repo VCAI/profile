@@ -1,9 +1,10 @@
 .profilepic{
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
   display: block; /*this is to get rid of bottom space in the pic*/
   margin: 0 auto; /*0 top margin and bottom auto set for leftright*/
-  border-radius: 50%;
+  border-radius: 18px;
+  border: 5px solid #4D3664;
 }
 
 .section-box{
@@ -11,7 +12,7 @@
   border-radius: 10px;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #CFCBF1;
+  background-color: #8785A2;
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1)
 }
 
@@ -57,7 +58,7 @@ a:hover {
 .section-body {
   background-color: #BAB5F6;
   padding: 20px;
-  width: 500px;
+  width: 700px;
   margin:0px auto;
   box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.1)
 }
@@ -78,11 +79,13 @@ a:hover {
   padding-left: 0;
 }
 
-#movies img {
-  width: 100px;
-  height: 100px;
-  border-radius: 5px;
+.movies img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
   margin-right: 5px;
+  margin-bottom: 5px;
+  border: 5px solid #4D3664;
 }
 
 @media (max-width: 960px) {
@@ -106,15 +109,20 @@ a:hover {
 
 #sidebar {
   position: fixed;
-  width: 170px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
   background-color: #8785A2;
 }
 #sidebar i {
-  font-size: 50px;
+  font-size: 35px;
 }
+
+#sidebar i:hover {
+  color: #BAB5F6;
+}
+
 
 #sidebar li {
   margin-top: 50px;
@@ -130,3 +138,4 @@ a:hover {
 #page-content {
   margin-left: 300px;
 }
+
