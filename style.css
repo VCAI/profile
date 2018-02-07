@@ -103,3 +103,30 @@ a:hover {
     width: 300px;
   }
 }
+
+#sidebar {
+  position: fixed;
+  width: 170px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #8785A2;
+}
+#sidebar i {
+  font-size: 50px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar ul {
+  list-style: none;
+  text-align: center;
+  padding: 0; /* to remove the padding from list */
+}
+
+#page-content {
+  margin-left: 300px;
+}
